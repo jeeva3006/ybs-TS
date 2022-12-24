@@ -1,0 +1,22 @@
+{
+  "name": "ybs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts"
+  },
+  "author": "jee6",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.17"
+  },
+  "dependencies": {
+    "@types/node-schedule": "^2.1.0",
+    "axios": "^1.2.1",
+    "mysql2": "^2.3.3",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.warning = exports.info = exports.danger = exports.success = void 0;
+const success = (txt) => console.log('\x1b[32m%s\x1b[0m', txt);
+exports.success = success;
+const danger = (txt) => console.log('\x1b[31m%s\x1b[0m', txt);
+exports.danger = danger;
+const info = (txt) => console.log('\x1b[36m%s\x1b[0m', txt);
+exports.info = info;
+const warning = (txt) => console.log('\x1b[33m%s\x1b[0m', txt);
+exports.warning = warning;

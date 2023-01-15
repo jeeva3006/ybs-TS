@@ -1,8 +1,8 @@
 export const databaseCredentials = {
-    host: '191.101.229.58',
-    user: 'demoUser',
-    password: 'demoUser',
+    host: '194.163.40.154',
+    user: 'jee',
+    password: 'awdsawds',
     port: 3306,
-    database: 'demo',
+    database: 'youtube',
     connectionLimit: 10,
 };

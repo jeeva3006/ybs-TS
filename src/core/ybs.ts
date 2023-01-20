@@ -30,9 +30,9 @@ export default class Ybs {
 
                 info(`${index}) ${title}`)
             }
-            else {
-                warning(`${index}) ${video?.snippet?.title}`)
-            }
+//             else {
+//                 warning(`${index}) ${video?.snippet?.title}`)
+//             }
         })
 
         this.db.kill();
